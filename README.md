@@ -7,7 +7,7 @@
 
 # Preview
 
-https://github.com/F4eNn/zadanie-rekrutacyjne/assets/113229528/d17fe140-ce23-4ef7-935f-5e4cffdb70e8
+https://github.com/F4eNn/zadanie-rekrutacyjne/assets/113229528/7ecd2e1e-9440-4056-9b72-98a0beb79e35
 
 
 
