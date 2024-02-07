@@ -70,6 +70,7 @@ function App() {
 			console.log(credentials);
 			// eslint-disable-next-line @typescript-eslint/no-unused-vars
 			const res = await fetchAPI(path, options);
+			console.log(res);
 		}
 	};
 

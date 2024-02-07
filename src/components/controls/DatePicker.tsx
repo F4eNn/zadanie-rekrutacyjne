@@ -26,9 +26,6 @@ export const DatePicker = ({ toggleTimePicker }: DatePickerProps) => {
 	};
 
 	useEffect(() => {
-		// eslint-disable-next-line @typescript-eslint/no-unused-vars
-		let isMounted = true;
-
 		const getDisabledDates = async () => {
 			const path = `${BACKEND_URL}?country=PL&year=2023`;
 			const options = {
@@ -45,9 +42,7 @@ export const DatePicker = ({ toggleTimePicker }: DatePickerProps) => {
 		};
 		getDisabledDates();
 
-		return () => {
-			isMounted = false;
-		};
+		return () => {};
 	}, []);
 
 	const handleSelectDay = (selectedDate: Date) => {
